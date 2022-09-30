@@ -8,9 +8,11 @@ public class Main {
 //		
 //		Random ran = new Random();
 //		Nombres n = new Nombres(); // Nombres funciona
-//		Integrante i = new Integrante(); // Integrantes funciona
-//		Familia f = new Familia();
-//		ArrayList<Familia> familias = new Ar	rayList<Familia>();
+		Integrante in = new Integrante(); // Integrantes funciona
+		Integrante in2 = new Integrante();
+		Integrante in3 = new Integrante();
+		Familia f = new Familia();
+
 
 		
 		ArmadoFamilias ar = new ArmadoFamilias();
@@ -19,6 +21,20 @@ public class Main {
 		ar.imprimirFamilias();
 		System.out.println();
 		}
+		
+//		in.setEdad(12);
+//		in2.setEdad(18);
+//		in3.setEdad(12);
+//		
+//		
+//		for (int i = 0 ; i < 2 ; i++) {
+//			f.integrantes.add(in);
+//			f.integrantes.add(in2);
+//			f.integrantes.add(in3);
+//		}
+//		
+//		System.out.println(f.calculoPromedio(f.integrantes));
+		
 		
 	}
 }
