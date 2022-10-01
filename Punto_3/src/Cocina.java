@@ -15,6 +15,11 @@ public class Cocina extends Electrodomestico{
 	public void setTipoCocina(String tipoCocina) {
 		this.tipoCocina = tipoCocina;
 	}
+
+	@Override
+	public String toString() {
+		return "Cocina: "+super.toString() +", Tipo cocina:"+ tipoCocina;
+	}
 	
 	
 	

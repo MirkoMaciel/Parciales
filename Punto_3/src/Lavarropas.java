@@ -31,6 +31,13 @@ public class Lavarropas extends Electrodomestico{
 	public void setCapacidadKilo(Integer capacidadKilo) {
 		this.capacidadKilo = capacidadKilo;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Lavarropas: "+super.toString() + ", Tipo Carga: "+ tipoCarga + ", Capacidad kilos: " + capacidadKilo + "]";
+	}
+	
 	
 	
 	

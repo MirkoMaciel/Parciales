@@ -19,7 +19,7 @@ public class Heladera extends Electrodomestico{
 
 	@Override
 	public String toString() {
-		return "Heladera"+super.toString()+ "Capacidad total:" + capacidadTotal;
+		return "Heladera: "+super.toString()+ ", Capacidad total:" + capacidadTotal;
 	}
 
 	

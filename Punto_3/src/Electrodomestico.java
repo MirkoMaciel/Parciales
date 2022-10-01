@@ -53,9 +53,9 @@ public class Electrodomestico {
 		this.precio = precio;
 	}
 
-	@Override
+
 	public String toString() {
-		return "Modelo: " + modelo + ", Color: " + color + ", Marca: " + marca + ", Precio:" + precio;
+		return modelo + ", Color: " + color + ", Marca: " + marca + ", Precio:" + precio;
 	}
 	
 	
